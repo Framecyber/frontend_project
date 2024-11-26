@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* Hero Section */
+#header {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#header p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+/* Features Section */
+#features {
+    padding: 60px 0;
+}
+
+#features .bi {
+    font-size: 3rem;
+}
+
+#features h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Testimonials Section */
+#testimonials .card {
+    border: none;
+    background: white;
+}
+
+#testimonials img {
+    border: 2px solid #007bff;
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .social-icon {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+footer .social-icon:hover {
+    color: #007bff;
+}
